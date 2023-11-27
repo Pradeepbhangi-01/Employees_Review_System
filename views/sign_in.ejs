@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/sign.css">
+    <div class="mainContainer">
+       
+        <div class="formInput">
+            <div class="register-heading" style="margin-top: 10px;">
+                <h2> Login </h2>
+            </div>
+    
+            <form method="POST" action="/users/create-session" >
+                <input type="email" name="email" placeholder="Enter email" required><br>
+                <input type="password" name="password" placeholder="Enter password" required><br>
+                
+
+                <div class = 'submitButtons'><button type="submit">Sign In</button></div>
+                
+                <div class="forgetPassword"><a href="/users/forgetPassword"> Forgotten Password? </a>
+                
+                </div>
+                
+                <div class="register">
+                   
+                   <a href="/users/sign-up"> Register User</a>
+                </div>
+        </div>
+    
+    </div>
+

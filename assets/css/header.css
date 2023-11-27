@@ -1,0 +1,89 @@
+/* navbar  */
+.navBar {
+  background-color: #043a2e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* These styling are for anchor tag in navBar*/
+
+.nameOfApp a {
+  font-size: 45px;
+
+  text-decoration: none;
+  margin-left: 45px;
+  color: rgb(218, 218, 210);
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-shadow: -1px 1px 0 #a0a8a0, 1px 1px 0 #c63d2b, 1px -1px 0 #42afac,
+    -1px -1px 0 #c6c23f;
+  text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 0 4px 0 #777,
+    0 5px 0 #666, 0 6px 0 #555, 0 7px 0 #444, 0 8px 0 #333, 0 9px 7px #302314;
+}
+
+.nameOfApp img {
+  height: 75px;
+  width: 80px;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+/* for the name of users */
+.nameOfUser {
+  font-size: 20px;
+  margin-left: 2px;
+  margin-right: 25px;
+  margin-top: 8px;
+  color: rgb(246, 242, 242);
+  font-weight: bold;
+}
+.nameOfUser img {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+/* Thesse styling are for nav-items, button which is present on the navBar */
+.nav-items a {
+  font-size: 30px;
+  margin-right: 10px;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.noUser ul {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.noUser li {
+  list-style: none;
+  font-size: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.noUser li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.noUser li a:hover {
+  color: rgb(122, 99, 99);
+}
+
+.nav-items small {
+  font-size: 15px;
+  color: rgb(235, 223, 223);
+  padding: 5px;
+}
+.nav-items small:hover {
+  color: rgb(241, 241, 232);
+  background-color: rgba(198, 81, 81, 0.303);
+}

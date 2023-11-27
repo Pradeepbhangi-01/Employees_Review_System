@@ -1,0 +1,78 @@
+/* heading for admin page */
+.heading {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.text-center {
+  font-size: 1.2rem;
+  margin-top: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.assingHeadine {
+  display: flex;
+  justify-content: center;
+}
+/* Container for assigning reviwer and reviewing */
+.reviewContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(235, 243, 235);
+  flex-direction: column;
+  width: 40%;
+  margin-left: 30%;
+  align-items: center;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: rgba(129, 150, 211, 0.296);
+}
+
+/* for the reviewer, container */
+.reviewer {
+  width: 90%;
+}
+
+/* Submit buttons div*/
+.submitButtons {
+  margin-left: 36%;
+  width: 30%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* Submit buttons  */
+.submitButtons button {
+  background-color: #ffff8fc7;
+  width: 10vw;
+  height: 25px;
+  border: 1px solid rgb(206, 216, 206);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.submitButtons button:hover {
+  background-color: yellow;
+}
+
+/* This button is used in assigning admin */
+.submitButtons2 {
+  width: 10vw;
+}
+
+.btn {
+  background-color: yellow;
+}
+#addemp {
+  background-color: lightyellow;
+}
+
+.table-heading {
+  background-color: rgba(129, 149, 211, 0.23);
+  border-radius: 5px;
+}
