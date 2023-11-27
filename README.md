@@ -2,11 +2,13 @@
 
 A full stack app, in which the admin, can assign the employees, to review each other on the basic of there work. The admin has special power, to make any other employee as the new admin. Admin can also make the new employee, and they can also assing, the reviewer and revieweee. The admin can see the current employee, and according to the review, the admin can remove the employee. The review given to the employee, is always going to be store in the database.
 
+# Video Link:- https://youtu.be/nD8RnM7amQE
+
 # Tech Stack
 Node , Express, Mongodb , EJS , javaScript , html, css
 
 # Featuers
-You can review the employees. The admin has the special power to assing the task to employee, remove the employee, make employee as admin and add new employee;
+You can review the employees. The admin has the special power to assign the task to employee, remove the employee, make employee as admin and add new employee;
 
 # Folder Structure Employee_Review_System
 
